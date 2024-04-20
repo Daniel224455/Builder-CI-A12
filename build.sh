@@ -1,3 +1,7 @@
+mkdir ~/bin
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+chmod a+x ~/bin/repo
+source ~/.profile
 chmod 755 download_ccache.sh
 ./download_ccache.sh
 mkdir aosp-repo
